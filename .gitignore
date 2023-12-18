@@ -1,0 +1,6 @@
+**/*.o
+**/.exe
+**/a.out
+*.o
+*.exe
+a.out
