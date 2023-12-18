@@ -10,7 +10,9 @@ using namespace std;
 
 int main()
 {
+    char str[] = "JeanJean";
     cout << "Hello world !\n";
+    printf("Hello World %15s!\n", str);
 
     return 0;
 }
