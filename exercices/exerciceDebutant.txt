@@ -35,4 +35,3 @@ Par exemple, la factorielle de 5 (notée 5!) est 1 * 2 * 3 * 4 * 5 = 120.
 --------------------------------------------------------------------------------------------------
 
 Pour chaque exercice, pensez à structurer votre code en utilisant des fichiers d'en-tête pour les déclarations et des fichiers source pour les définitions. Cela vous aidera à vous familiariser avec la structure des programmes en C++.
---------------------------------------------------------------------------------------------------
