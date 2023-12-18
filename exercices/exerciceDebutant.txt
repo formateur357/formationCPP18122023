@@ -1,0 +1,38 @@
+Exercices pour Débutants
+
+Pour pratiquer et se familiariser avec la programmation en C++, voici quelques exercices simples adaptés aux débutants :
+--------------------------------------------------------------------------------------------------
+
+Hello World :
+
+Écrivez un programme qui affiche "Hello, World!" sur la console.
+Utilisez std::cout pour l'affichage.
+--------------------------------------------------------------------------------------------------
+
+Calculatrice Simple :
+
+Écrivez un programme qui demande à l'utilisateur de saisir deux nombres, puis choisissez une opération arithmétique (addition, soustraction, multiplication, division) et affichez le résultat.
+Gérez les erreurs de saisie, comme la division par zéro.
+--------------------------------------------------------------------------------------------------
+
+Conversion de Température :
+
+Écrivez un programme qui convertit la température de Celsius en Fahrenheit et vice-versa.
+Utilisez la formule 
+F = C × 9 / 5 + 32 pour la conversion de Celsius à Fahrenheit.
+--------------------------------------------------------------------------------------------------
+
+Manipulation de Chaînes :
+
+Écrivez un programme qui prend une chaîne de caractères saisie par l'utilisateur et renverse cette chaîne.
+Par exemple, si l'utilisateur saisit "hello", le programme affiche "olleh".
+--------------------------------------------------------------------------------------------------
+
+Calcul de Factorielle :
+
+Écrivez une fonction récursive qui calcule la factorielle d'un nombre.
+Par exemple, la factorielle de 5 (notée 5!) est 1 * 2 * 3 * 4 * 5 = 120.
+--------------------------------------------------------------------------------------------------
+
+Pour chaque exercice, pensez à structurer votre code en utilisant des fichiers d'en-tête pour les déclarations et des fichiers source pour les définitions. Cela vous aidera à vous familiariser avec la structure des programmes en C++.
+--------------------------------------------------------------------------------------------------
