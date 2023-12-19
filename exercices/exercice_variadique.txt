@@ -1,0 +1,29 @@
+Exercice : Calcul de la Moyenne avec Arguments Variables
+
+Objectif
+
+Écrire une fonction en C nommée calculMoyenne qui calcule la moyenne de plusieurs nombres passés en arguments. La fonction doit accepter un nombre variable d'arguments, tous de type int. Le premier argument doit être le nombre d'arguments qui suivent.
+
+-----------------------------------------------------
+Instructions
+
+- Incluez l'en-tête stdarg.h pour pouvoir utiliser les fonctionnalités des arguments variables.
+- Déclarez la fonction calculMoyenne qui prend un nombre entier comme premier argument (représentant le nombre de valeurs), suivi d'une liste d'arguments variables.
+- Dans la définition de la fonction, utilisez les macros va_start, va_arg et va_end pour itérer sur les arguments variables et calculer leur somme.
+- Divisez la somme par le nombre d'arguments pour obtenir la moyenne.
+- Retournez la moyenne calculée.
+- Dans la fonction main, testez votre fonction calculMoyenne avec différents nombres d'arguments.
+-----------------------------------------------------
+Exemple de Prototype de la Fonction
+
+double calculMoyenne(int nombreDeValeurs, ...);
+
+------------------------------------------------------
+Exemple d'Utilisation dans main
+
+int main() {
+    printf("Moyenne de 1, 2, 3: %f\n", calculMoyenne(3, 1, 2, 3));
+    printf("Moyenne de 4, 5, 6, 7, 8: %f\n", calculMoyenne(5, 4, 5, 6, 7, 8));
+    return 0;
+}
+------------------------------------------------------
