@@ -64,4 +64,31 @@ int main()
     {
         cout << "Livre Id 1 est empruntee." << endl;
     }
+
+    sort(bibliotheque.begin(), bibliotheque.end(), [](const Livre &a, Livre &b)
+         { return a.titre < b.titre; });
+
+    vector<Livre> livresAuteurA;
+    copy_if(bibliotheque.begin(), bibliotheque.end(), back_inserter(livresAuteurA), [](const Livre &livre)
+            { return livre.auteur == "Auteur A"; });
+
+    unordered_map<string, vector<Livre>> livresParAuteur;
+    for (const auto &livre : bibliotheque)
+    {
+        livresParAuteur[livre.auteur].push_back(livre);
+    };
+
+    auto lower = lower_bound(bibliotheque.begin(), bibliotheque.end(), "Livre A", [](const Livre &livre, const string &titre)
+                             { return livre.titre < titre; });
+
+    auto upper = upper_bound(bibliotheque.begin(), bibliotheque.end(), "Livre B", [](const Livre &livre, const string &titre)
+                             { return livre.titre < titre; });
+
+    cout << "Livres suggeres : " << endl;
+    for (auto it = lower; it != upper; ++it)
+    {
+        afficherLivre(*it);
+    }
+
+    return 0;
 }
