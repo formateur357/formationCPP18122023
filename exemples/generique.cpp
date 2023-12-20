@@ -14,6 +14,7 @@ bool isEqual<char *>(char *a, char *b)
     return std::strcmp(a, b) == 0; // Comparaison spécifique pour les chaînes C
 }
 
+// ----------------------------------------------------
 // Classe générique représentant un conteneur simple
 template <typename T>
 class Box
