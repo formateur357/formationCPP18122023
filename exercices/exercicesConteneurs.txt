@@ -21,3 +21,20 @@ Gestion des Emprunts de Livres :
 - Créez un std::set<int> pour stocker les IDs des livres actuellement empruntés.
 - Ajoutez et supprimez des IDs dans le set pour simuler l'emprunt et le retour de livres.
 - Utilisez find pour vérifier si un livre est actuellement emprunté.
+
+-------------------------------------------------------
+Partie 2: Opérations Avancées et Algorithmes STL
+
+Tri et Filtrage des Livres :
+
+Utilisez std::sort pour trier le vector de livres par titre.
+Utilisez std::copy_if pour copier dans un nouveau vector tous les livres d'un auteur spécifique.
+
+Utilisation de Conteneurs non-ordonnés :
+
+Créez un std::unordered_map<std::string, std::vector<Livre>> pour regrouper les livres par auteur.
+Parcourez le vector de livres et remplissez le unordered_map.
+
+Gestion des Suggestions :
+
+Créez une fonction qui utilise std::lower_bound et std::upper_bound dans le vector trié de livres pour suggérer des livres basés sur une plage de titres.
