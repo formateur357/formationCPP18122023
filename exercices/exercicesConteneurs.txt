@@ -25,16 +25,16 @@ Gestion des Emprunts de Livres :
 -------------------------------------------------------
 Partie 2: Opérations Avancées et Algorithmes STL
 
-Tri et Filtrage des Livres :
+1. Tri et Filtrage des Livres :
 
 Utilisez std::sort pour trier le vector de livres par titre.
 Utilisez std::copy_if pour copier dans un nouveau vector tous les livres d'un auteur spécifique.
 
-Utilisation de Conteneurs non-ordonnés :
+2. Utilisation de Conteneurs non-ordonnés :
 
 Créez un std::unordered_map<std::string, std::vector<Livre>> pour regrouper les livres par auteur.
 Parcourez le vector de livres et remplissez le unordered_map.
 
-Gestion des Suggestions :
+3. Gestion des Suggestions :
 
 Créez une fonction qui utilise std::lower_bound et std::upper_bound dans le vector trié de livres pour suggérer des livres basés sur une plage de titres.
