@@ -14,6 +14,12 @@ private:
 
 public:
     Rational(int numerator, int denominator);
+    ~Rational(){};
+
+    Rational &operator+=(const Rational &r);
+    Rational &operator-=(const Rational &r);
+    Rational &operator++();
+    Rational operator++(int);
 
     friend Rational operator+(const Rational &r1, const Rational &r2);
     friend Rational operator-(const Rational &r1, const Rational &r2);
@@ -22,5 +28,6 @@ public:
 
     friend bool operator==(const Rational &r1, const Rational &r2);
 
-    friend ostream &operator<<(ostream &os, const Rational &r2);
+    friend ostream &operator<<(ostream &os, const Rational &r);
+    friend istream &operator>>(istream &is, Rational &r);
 };
