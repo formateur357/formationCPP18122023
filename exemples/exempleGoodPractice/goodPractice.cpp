@@ -14,3 +14,8 @@ void MyClass::setValue(int newValue)
     if (newValue > 0)
         value = newValue;
 }
+
+void MyClass::myMethod()
+{
+    std::cout << "Just a method";
+}
