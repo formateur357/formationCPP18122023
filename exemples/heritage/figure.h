@@ -14,12 +14,12 @@ public:
     Figure(double x = 0, double y = 0, double z = 0) : x(x), y(y), z(z) {}
     ~Figure() {}
 
-    string description() const
+    virtual string description() const
     {
         return "Figure"; // je suis ...
     }
 
-    void toString() const
+    virtual void toString() const
     {
         cout << x << " " << y << " " << z; // mes attributs sous forme de string
     }

@@ -11,12 +11,12 @@ public:
     Cercle(double largeur) : Figure(0, 0, 0), largeur(largeur) {}
     ~Cercle() {}
 
-    string description() const // redéfinition pour un Triangle
+    string description() const override // redéfinition pour un Triangle
     {
         return "Cercle"; // je suis plus précisément ...
     }
 
-    void toString() const // redéfinition pour un Triangle
+    void toString() const override // redéfinition pour un Triangle
     {
         Figure::toString();
         cout << " " << largeur; // mes attributs spécifiques
