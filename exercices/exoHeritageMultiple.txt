@@ -21,8 +21,10 @@ Vous devez créer une hiérarchie de classes représentant différents types de 
 - Créez un objet de type SmartPhone.
 - Utilisez dynamic_cast pour convertir cet objet en Camera* et Speaker*, et appelez displayInfo() sur ces pointeurs.
 - Résolvez l'ambiguïté d'appel de displayInfo() via l'objet SmartPhone.
+--------------------------------------------------------------------------------
 
-Énoncé de l'Exercice
+Énoncé de l'Exercice 2
+
 Dans cet exercice, vous allez étendre la hiérarchie de classes précédente en ajoutant des classes représentant différentes fonctionnalités d'un smartphone. L'objectif est de pratiquer l'héritage multiple, le polymorphisme et la gestion des relations complexes entre les classes.
 
 1. Ajoutez les Classes GPS et MusicPlayer :
