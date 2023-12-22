@@ -1,0 +1,7 @@
+Téléchargez CppUnit depuis SourceForge.
+Compilez et installez CppUnit sur votre système. Les instructions spécifiques peuvent varier selon votre système d'exploitation.
+
+Configuration de Votre Projet de Test
+Créez un nouveau projet C++ dans votre environnement de développement.
+Configurez le chemin d'inclusion pour que le compilateur puisse trouver les en-têtes de CppUnit.
+Configurez le linker pour lier la bibliothèque CppUnit.
